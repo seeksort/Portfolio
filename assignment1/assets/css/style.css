@@ -259,19 +259,31 @@ MEDIA QUERIES
 	.inner-content > p {
 		clear: all;
 	}
-
-@media screen and (max-width: 768px) {
-	.container {
-		width: 614px;
-	}
-	.main-content {
-		display: block;
-		width: 600px;
+	.portfolio-project > img {
+		width: 440px;
+		height: 320px;
+		display: inline-block;
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.portfolio-project > div {
+		width: 440px;
+	}
+
+@media screen and (max-width: 768px) {
+	.container {
+		width: 640px;
+	}
+	.main-content {
+		display: block;
+		width: 610px;
+		margin-left: auto;
+		margin-right: auto;
+		padding: 0 15px;
+	}
 	.sidebar {
-		width: 600px;
+		width: 610px;
+		padding: 0 15px;
 		display: block;
 		float: none;
 		clear: all;
@@ -279,24 +291,47 @@ MEDIA QUERIES
 		margin-left: auto;
 		margin-right: auto;
 	}
+	.inner-content {
+		margin: 24px 0px;
+	}
 	#sidebar-heading > h2 {
 		text-align: left;
 	} 
 	.profile-pic {
 		float: left;
 		width: 428px;
-		margin: 20px 45px;
+		margin: 20px 75px;
+	}
+	.headings {
+		margin-left: 11px;
+		margin-right: 11px;
+	}
+	.portfolio-project {
+		margin-left: 11px;
+		margin-right: 11px;
+		width: 280px;
+	}
+	.portfolio-project > img {
+		width: 280px;
+		height: 200px;
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.portfolio-project > div {
+		display: inline-block;
+		width: 280px;
 	}
 }
 @media screen and (max-width: 640px) {
 	.main-content {
 		display: block;
-		width: 580px;
+		width: 570px;
 		margin-left: auto;
 		margin-right: auto;
 	}
 	.sidebar {
-		width: 580px;
+		width: 570px;
 		display: block;
 		float: none;
 		clear: all;
@@ -317,11 +352,29 @@ MEDIA QUERIES
 	nav {
 		float: none;
 		clear: all;
+		text-align: center;
 		padding-top: 34px;
 		padding-bottom: 34px;
 		background-color: #ffffff;
 	}
 	nav > a {
-		width: 33%;
+		padding-left: 60px;
+		padding-right: 60px;
+	}
+	.portfolio-project {
+		margin-left: 11px;
+		margin-right: 11px;
+		width: 545px;
+	}
+	.portfolio-project > img {
+		width: 545px;
+		height: 390px;
+		display: inline-block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.portfolio-project > div {
+		display: inline-block;
+		width: 545px;
 	}
 }
