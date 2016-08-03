@@ -128,7 +128,7 @@ SIDEBAR
 #sidebar-heading > h2{
 	border-width: 2px;
 	margin-bottom: 0px;
-	padding-top: 12px;
+	padding-top: 6px;
 }
 #sidebar-heading {
 	border-width: 2px;
@@ -269,6 +269,15 @@ MEDIA QUERIES
 	.portfolio-project > div {
 		width: 440px;
 	}
+	input, textarea {
+		width: 412px;
+	}
+	textarea {
+		height: 200px;
+	}
+	button {
+		padding: 6px 20px;
+	}	
 
 @media screen and (max-width: 768px) {
 	.container {
@@ -282,8 +291,8 @@ MEDIA QUERIES
 		padding: 0 15px;
 	}
 	.sidebar {
-		width: 610px;
-		padding: 0 15px;
+		width: 600px;
+		padding: 0 20px;
 		display: block;
 		float: none;
 		clear: all;
@@ -322,6 +331,18 @@ MEDIA QUERIES
 		display: inline-block;
 		width: 280px;
 	}
+	form {
+		padding: 0px 11px;
+	}
+	input, textarea {
+		width: 568px;
+	}
+	textarea {
+		height: 200px;
+	}
+	button {
+		padding: 6px 20px;
+	}	
 }
 @media screen and (max-width: 640px) {
 	.main-content {
@@ -331,7 +352,9 @@ MEDIA QUERIES
 		margin-right: auto;
 	}
 	.sidebar {
-		width: 570px;
+		width: 560px;
+		padding-left: 20px;
+		padding-right: 20px; 
 		display: block;
 		float: none;
 		clear: all;
@@ -377,4 +400,16 @@ MEDIA QUERIES
 		display: inline-block;
 		width: 545px;
 	}
+	form {
+		padding: 0px 11px;
+	}
+	input, textarea {
+		width: 528px;
+	}
+	textarea {
+		height: 200px;
+	}
+	button {
+		padding: 6px 20px;
+	}		
 }
