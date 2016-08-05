@@ -1,0 +1,82 @@
+body {
+  background-color: #CEE8ED;
+  font-family: font-family: 'Poppins', sans-serif;
+}
+
+.navbar-custom {
+  background-color: -webkit-#282863;
+  background-color:      -o-#282863;
+  background-color: -webkit-#282863;
+  background-color:         #282863;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffffff', endColorstr='#fff8f8f8', GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(enabled = false);
+  background-repeat: repeat-x;
+  border-radius: 4px;
+  -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+          box-shadow: inset 0 1px 0 rgba(255, 255, 255, .15), 0 1px 5px rgba(0, 0, 0, .075);
+  color: #FFF;
+}
+.navbar-custom .navbar-toggle:hover,
+.navbar-custom .navbar-toggle:focus {
+  background-color: #CEE8ED;
+  color: #FFF;
+  border-color: #CEE8ED;
+}
+
+.navbar-default
+.navbar-brand {
+  font-family: 'Arvo', serif;
+  font-size: 1.6em;
+  color: #FFF;
+}
+.navbar-default .navbar-nav>li>a {
+  font-size: 1.25em;
+  color: #FFF;
+  font-weight: bold;
+}
+
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
+  color: #CEE8ED;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Poppins', sans-serif;;
+    color: #282863;
+}
+p, div {
+    font-family: 'Poppins', sans-serif;;
+    color: #282863;
+}
+
+#profile-pic {
+  max-width: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+hr {
+  color: #F28076;
+}
+
+
+@media (min-width: 768px) {
+  .navbar-custom {
+    padding: 25px 0;
+    -webkit-transition: padding 0.3s;
+    -moz-transition: padding 0.3s;
+    transition: padding 0.3s;
+  }
+  .navbar-custom .navbar-brand {
+    font-size: 2em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  .navbar-custom.affix {
+    padding: 10px 0;
+  }
+  .navbar-custom.affix .navbar-brand {
+    font-size: 1.5em;
+  }
+}
