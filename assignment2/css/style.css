@@ -8,7 +8,7 @@ html {
   min-height: 100%;
 }
 body {
-  background-color: #CEE8ED;
+  background-color: #C5E0DC;
   font-family: font-family: 'Poppins', sans-serif;
   margin-bottom: 100px;
 }
@@ -19,6 +19,7 @@ h1, h2, h3, h4, h5, h6 {
 p, div {
   font-family: 'Poppins', sans-serif;;
   color: #282863;
+  font-size: 1.05em;
 }
 #profile-pic {
   max-width: 175px;
@@ -56,9 +57,9 @@ NAVBAR
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #4E73AA;
+  background-color: #C5E0DC;
   color: #282863;
-  border-color: #4E73AA;
+  border-color: #C5E0DC;
 }
 .navbar-default
 .navbar-brand {
@@ -75,7 +76,7 @@ NAVBAR
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-nav>li>a:hover,
 .navbar-default .navbar-nav>li>a:focus {
-  color: #4E73AA;
+  color: #C5E0DC;
 }
 .navbar {
   margin-bottom: 0px;
