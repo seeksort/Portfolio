@@ -16,9 +16,16 @@
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href="https://fonts.googleapis.com/css?family=Arvo|Poppins" rel="stylesheet">
     
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
 </head>
 <body id="page-top" class="index">
-	<nav class="navbar navbar-default navbar-static-top navbar-custom" role="navigation">
+	<nav class="navbar navbar-default navbar-fixed-top navbar-custom" role="navigation">
 		<div class="container">
 			<div class="navbar-header">
 	            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navHeaderCollapse">
@@ -35,16 +42,24 @@
 	                    <a href="#">About</a>
 	                </li>
 	                <li>
-	                    <a href="#portfolio">Portfolio</a>
+	                    <a href="portfolio.html">Portfolio</a>
 	                </li>
 	                <li>
-	                    <a href="#contact">Contact</a>
+	                    <a href="contact.html">Contact</a>
 	                </li>
 	            </ul>
 	        </div>				
 		</div>
 	</nav>
-
+	
+	<div class="jumbotron">
+		<div class="container text-center">
+			<br><br><br><br><br>
+			<h1>Kristin Faner</h1>
+			<h3>Aspiring Full-Stack Web Developer</h3>
+			<br><br><br>
+		</div>	
+	</div>
 
 
 	<div class="container">
@@ -54,16 +69,24 @@
 		<div class="row">
 			<div class="col-lg-8 col-lg-offset-2 text-center">
                 <h2 class="section-heading">About Me</h2>
-                <hr class="light">
-                <p class="col-md-9 text-left">Hiya! My name is Kristin and I'm an Austinite working to one day bloom into a full-stack web developer. Within this website you will (soon) find projects written in HTML/CSS, JavaScript, and Python. These projects are also hosted on GitHub.<br><br>I enjoy the challenge of coding and welcome any and all constructive feedback via my Contact page (or in person, or via GitHub, whatever floats your boat). Let's learn and grow together!</p>
-                <img class="col-md-3 img-responsive img-circle" src="assets/images/profile.jpg" id="profile-pic">
+                <hr>
+                <p class="col-md-9 text-left">Hiya! My name is Kristin and I'm an Austinite working to one day bloom into a full-stack web developer. Within this website you will (soon) find projects written in HTML/CSS, JavaScript, and Python. These projects are also hosted on GitHub.<br><br>I enjoy the challenge of coding and welcome any and all constructive feedback via my Contact page (or in person, or via GitHub, whatever floats your boat). Let's learn and grow together!
+                <br><br><br>
+                Background photo by <a href="https://unsplash.com/photos/HhCANDrFzZ0">Priscilla Westra</a></p>
+                <img class="col-md-3 img-circle" src="assets/images/profile.jpg" id="profile-pic">
+                <p class="col-md-12">
 				<p>
             </div>
 		</div>
 	</div>
 
+	<br>
 
-
+	<footer class="footer">
+		<div class="container text-center">
+			<p class="">&copy; Copyright Kristin Faner</p>	
+		</div>
+	</footer>	
 
 	<!-- jQuery -->
     <script src="vendor/jquery/jquery.min.js"></script>
